@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+#titletext{
+    font-size: 50px;
+    text-align: center;
+    font-family: "Pinyon Script", cursive;
+}
+#subheading{
+    font-family: "Playball" sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+}
+.slide{
+    height:500px;
+}
+#slide2{
+    padding: 30px;
+    background-color: #212121;
+    margin: 0px;
+    color: azure;
+}
+#slide3{
+ 
+}
+.description-text{
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+#contact-info{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    bottom: -10%;
+}
+.main-text{
+    font-family: "Playball" sans-serif;
+}
