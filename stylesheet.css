@@ -10,10 +10,9 @@ body{
     font-family: "Playball" sans-serif;
     text-align: center;
     font-size: 30px;
-    position: relative;
 }
 .slide{
-    height:500px;
+    height:80vh;
 }
 #slide2{
     padding: 30px;
@@ -29,7 +28,6 @@ body{
     font-size: 18px;
 }
 #contact-info{
-    width: 70%;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -37,4 +35,18 @@ body{
 }
 .main-text{
     font-family: "Playball" sans-serif;
+}
+#main-image{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+}
+.centered{
+    float:none;
+    margin: 0 auto;
+}
+.vertical-center{
+    height:auto;
+    position: relative;
+    top:20%;
 }
