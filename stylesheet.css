@@ -40,6 +40,7 @@ body{
     height:200px;
     width:200px;
     border-radius: 50%;
+    display: block;
 }
 .centered{
     float:none;
@@ -49,4 +50,10 @@ body{
     height:auto;
     position: relative;
     top:20%;
+}
+#pl1{
+    height:100%;
+}
+#main-image-back{
+    background-color: #F8BBD0;
 }
