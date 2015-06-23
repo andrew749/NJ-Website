@@ -12,6 +12,7 @@ body{
     font-size: 30px;
 }
 .slide{
+    min-height: 80vh;
     height:auto;
     padding-bottom: 20px;
 }
@@ -52,7 +53,7 @@ body{
 .vertical-center{
     height:auto;
     position: relative;
-    top:20%;
+    top:20vh;
 }
 #pl1{
     height:100%;
