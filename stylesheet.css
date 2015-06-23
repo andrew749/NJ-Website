@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: "Playball" sans-serif;
 }
 #titletext{
     font-size: 50px;
@@ -23,14 +24,13 @@ body{
     color: azure;
 }
 #slide3{
- 
+
 }
 #slide4{
     background-color: #E91E63;
     color:#fff;
 }
 .description-text{
-    font-family: 'PT Serif', serif;
     font-size: 18px;
 }
 #contact-info{
@@ -38,6 +38,8 @@ body{
     text-align: center;
     position: relative;
     bottom: 10%;
+    margin-top: 5%;
+    font-size: 1.5em;
 }
 .main-text{
     font-family: "Playball" sans-serif;
@@ -51,9 +53,10 @@ body{
     margin: 0 auto;
 }
 .vertical-center{
-    height:auto;
     position: relative;
     top:20vh;
+    height: auto;
+    bottom: 10%;
 }
 #pl1{
     height:100%;
@@ -65,7 +68,10 @@ body{
     color: aliceblue;
 }
 .img-container{
-text-align: center;
+    text-align: center;
+}
+.nav li:hover{
+    background-color: #000;
 }
 @media (max-width: 767px) {
     .vertical-center{
@@ -73,4 +79,8 @@ text-align: center;
     }
 
 
+}
+input{
+    margin: 20px;
+    width: 200px;;
 }
