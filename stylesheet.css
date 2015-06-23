@@ -12,7 +12,8 @@ body{
     font-size: 30px;
 }
 .slide{
-    height:80vh;
+    height:auto;
+    padding-bottom: 20px;
 }
 #slide2{
     padding: 30px;
