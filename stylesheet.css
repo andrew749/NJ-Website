@@ -16,12 +16,16 @@ body{
 }
 #slide2{
     padding: 30px;
-    background-color: #212121;
+    background-color: #E91E63;
     margin: 0px;
     color: azure;
 }
 #slide3{
  
+}
+#slide4{
+    background-color: #E91E63;
+    color:#fff;
 }
 .description-text{
     font-family: 'PT Serif', serif;
@@ -31,7 +35,7 @@ body{
     margin: 0 auto;
     text-align: center;
     position: relative;
-    bottom: -10%;
+    bottom: 10%;
 }
 .main-text{
     font-family: "Playball" sans-serif;
@@ -39,8 +43,6 @@ body{
 #main-image{
     height:200px;
     width:200px;
-    border-radius: 50%;
-    display: block;
 }
 .centered{
     float:none;
@@ -54,6 +56,19 @@ body{
 #pl1{
     height:100%;
 }
-#main-image-back{
+.navbar-custom{
     background-color: #F8BBD0;
+}
+.navbar-toggle{
+    color: aliceblue;
+}
+.img-container{
+text-align: center;
+}
+@media (max-width: 767px) {
+    .vertical-center{
+        top:0%;
+    }
+
+
 }
