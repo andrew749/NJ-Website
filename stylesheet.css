@@ -1,34 +1,18 @@
 body{
     margin: 0px;
     font-family: "Playball" sans-serif;
+    height:100vh;
+    text-align: center;
 }
 #titletext{
-    font-size: 50px;
+    font-size: 2.5em;
     text-align: center;
     font-family: "Pinyon Script", cursive;
 }
 #subheading{
     font-family: "Playball" sans-serif;
     text-align: center;
-    font-size: 30px;
-}
-.slide{
-    min-height: 80vh;
-    height:auto;
-    padding-bottom: 20px;
-}
-#slide2{
-    padding: 30px;
-    background-color: #E91E63;
-    margin: 0px;
-    color: azure;
-}
-#slide3{
-
-}
-#slide4{
-    background-color: #E91E63;
-    color:#fff;
+    font-size: 1.3em;
 }
 .description-text{
     font-size: 18px;
@@ -45,8 +29,8 @@ body{
     font-family: "Playball" sans-serif;
 }
 #main-image{
-    height:200px;
-    width:200px;
+    height:150px;
+    width:150px;
 }
 .centered{
     float:none;
@@ -77,10 +61,65 @@ body{
     .vertical-center{
         top:0%;
     }
-
-
 }
 input{
     margin: 20px;
     width: 200px;;
+}
+.w{
+    font-size: 2.5em;
+
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: beige;
+    height:auto;
+}
+.footer-list{
+    width:90%;
+    margin: 0 auto;
+    height:auto;
+}
+.footer-list li{
+    display: inline-block;
+    width:15%;
+    height:auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+.circle-entries{
+    height:auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
+.circle-entry{
+    height:180px;
+    width: 180px;
+    border-radius:50%;
+    margin: 0 auto;
+    display: table;
+    vertical-align: middle;
+    background-color: lightpink;
+}
+.circle-entry p{
+    font-size: 2.7em;
+    display: table-cell;
+    vertical-align: middle;
+}
+.circle-entry:hover{
+    background-color: antiquewhite;
+}
+.circle-holder{
+}
+.image-spinner{
+    height:250px;
+    margin:0 auto;
+    background-color: lightpink;
+}
+.main{
+    float: none;
+    height:85%;;
 }

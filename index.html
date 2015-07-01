@@ -2,7 +2,7 @@
 <html>
 
     <head>
-        <title>JN Cake Designs.</title>   
+        <title>Winslet Event Design</title>   
         <!--        text css links-->
         <link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'/>
@@ -22,8 +22,13 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-
         <link rel="stylesheet" href="stylesheet.css"/>
+        <script>
+            jQuery(document).ready(function ($) {
+                var options = { $AutoPlay: true };
+                var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+            });
+        </script>
     </head>
 
 
@@ -35,7 +40,7 @@
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar glyphicon glyphicon-menu-hamburger"></span>
                     </button>
-                    <a class="navbar-brand" href="#">JN Cake Designs</a>
+                    <a class="navbar-brand" href="#">Winslet Event Designs</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -60,43 +65,51 @@
         </nav>
 
         <!--        END NAVIGATION BAR-->
+        <div class="container col-md-11 main" >
 
-        <!--START FIRST SLIDE-->
-        <div class="slide col-md-12 row-fluid" id="mainslide">
-            <div class="vertical-center">
+            <!--START FIRST SLIDE-->
+            <div class="col-md-12 row" id="title">
                 <div id="pl1" class="col-md-8 centered">
-                    <div class="col-md-8">
-                        <p id="titletext">JN Cake Designs</p>
-                        <p id="subheading">Cake Designs for the 21st Century</p>
-                    </div>
                     <div class="col-md-4 col-sm-12 img-container" >
                         <img id="main-image" class="centered img-circle" src="http://www.bridalguide.com/sites/default/files/blog-images/bridal-buzz/simple-chic-wedding-cakes/simple-chic-wedding-cake-1.jpg"/>
                     </div>
+                    <div class="col-md-8">
+                        <p id="titletext">
+                            <span class="w">W</span>inslet Event Designs</p>
+                        <p id="subheading">Event Designs for the 21st Century</p>
+                    </div>
+
                 </div>
-                <div class="col-md-12" id="contact-info">
-                    <p class="main-text">Contact us and get a free quote!<input id="email-entry" type="text" placeholder="Enter your email"/></p>
-                    
+            </div>
+            <div class="image-spinner col-md-12">
+                <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
+                    <!-- Slides Container -->
+                    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 300px;">
+                        <div><img u="image" src="image1.jpg" /></div>
+                        <div><img u="image" src="image2.jpg" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="circle-entries col-md-12 row">
+                <div class="col-md-4 circle-holder"><div class="circle-entry"><p>Shop Online</p></div></div>
+                <div class="col-md-4 circle-holder"><div class="circle-entry"><p>Events</p></div></div>
+                <div class="col-md-4 circle-holder"><div class="circle-entry"><p>Contact</p></div></div>
 
             </div>
         </div>
+        <div class="footer col-md-12">
+            <ul class="footer-list">
+                <li>Details</li>
+                <li>Beauty</li>
+                <li>Hair</li>
+                <li>Makeup</li>
+                <li>Inspiration</li>
+                <li>Florals</li>
+            </ul>
         </div>
 
 
 
-    <div class="slide col-md-12 row-fluid" id="slide2">
-        <p>Let us make your next occasion special.</p>
-        <br>
-        <p class="description-text">Whether its for birthdays, weddings or everything in between, JN Cake Designs can help you. But don't take our word for it. Look at our extensive portfolio and see why so many others have chosen us.</p>
-    </div>
-    <div class="slide col-md-12 row-fluid" id="slide3 about">
-        <p>Custom stuff</p>
-        <br>
-        <p class="description-text">Whether its for birthdays, weddings or everything in between, JN Cake Designs can help you. But don't take our word for it. Look at our extensive portfolio and see why so many others have chosen us.</p>
-    </div>
-    <div class="slide col-md-12 row-fluid" id="slide4">
-        <p>Custom stuff</p>
-        <br>
-        <p class="description-text">Whether its for birthdays, weddings or everything in between, JN Cake Designs can help you. But don't take our word for it. Look at our extensive portfolio and see why so many others have chosen us.</p>
-    </div>
+
     </body>
 </html>
