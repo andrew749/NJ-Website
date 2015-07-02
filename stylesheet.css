@@ -4,6 +4,12 @@ body{
     height:100vh;
     text-align: center;
 }
+@media (max-device-width:480px){
+    body{
+        height: auto;
+    }
+
+}
 #title{
     height:20vh;
     display: table;
@@ -143,6 +149,7 @@ input{
 .image-spinner{
     height:50vh;
     margin:0 auto;
+    overflow: hidden;
 }
 .main{
     float: none;
@@ -152,19 +159,6 @@ input{
     height:50vh;
     overflow: hidden;
 }
-.link-back-image {
-    -webkit-filter: blur(1px);
-    overflow: hidden;
-    position: absolute;
-    height:100%;
-    width:100%;
-    z-index: -10;
-}
-
-#shoponline_back {
-    background-image: url("http://news.stanford.edu/news/2012/september/images/online_keyboard_news.jpg");
-}
-
-#events_back {
-    background-image: url("http://www.marshalsecurity.ca/wp-content/uploads/2014/02/event2.png");
+.glyphicon{
+    vertical-align: middle;
 }
