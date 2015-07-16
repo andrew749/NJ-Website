@@ -1,14 +1,29 @@
+@media screen and (max-width: 480px) {
+    .vertical-center{
+        top:0%;
+    }
+    body{
+        height: auto;
+    }
+    .footer-list li{
+        display: block;
+    }
+    .footer-list{
+        width: 100%;
+    }
+    .footer{
+        position: relative;
+        height: auto;
+    }
+    #title{
+        height: auto;
+    }
+}
 body{
     margin: 0px;
     font-family: "Playball" sans-serif;
     height:100vh;
     text-align: center;
-}
-@media (max-device-width:480px){
-    body{
-        height: auto;
-    }
-
 }
 #title{
     height:20vh;
@@ -82,11 +97,7 @@ body{
 .nav li:hover{
     background-color: #000;
 }
-@media (max-width: 767px) {
-    .vertical-center{
-        top:0%;
-    }
-}
+
 input{
     margin: 20px;
     width: 200px;;
@@ -113,7 +124,7 @@ input{
     text-align: center;
 }
 .circle-entries{
-    height:20vh;;
+    height:auto;
     text-align: center;
     margin: 0 auto;
     margin-top: 10px;
@@ -122,7 +133,6 @@ input{
     bottom: 0px;
 }
 .circle-entry{
-    height:20vh;
     width: 100%;
     margin: 0 auto;
     display: table;
@@ -142,8 +152,6 @@ input{
     background-color: antiquewhite;
 }
 .circle-holder{
-    overflow: hidden;
-}.circle-holder{
     overflow: hidden;
 }
 .image-spinner{
