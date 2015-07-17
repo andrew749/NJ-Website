@@ -188,3 +188,10 @@ input{
   border:1px;
   text-align:center;
 }
+#map{
+ height:70vh;
+}
+#other-contact-info{
+  font-size:30px;
+  text-align:left;
+}
