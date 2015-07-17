@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="gallery col-md-12">
+    <ul id="gallery-post-list">
+        {%for post in site.posts%}
+
+            <li>
+                <div class="gallery-entry col-md-3">
+                    {{post.title}}
+                    <img class="postimage" src="{{post.image}}"/>
+                </div>
+            </li>
+        {%endfor%}
+    </ul>
+</div>

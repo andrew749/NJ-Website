@@ -170,3 +170,21 @@ input{
 .glyphicon{
     vertical-align: middle;
 }
+.postimage{
+  display:block;
+  width:200px;
+  height:200px;
+  margin:0 auto;
+}
+#gallery-post-list{
+  list-style-type: none;
+}
+.gallery{
+  height:70vh;
+  overflow:scroll;
+}
+.gallery-entry{
+  padding:10px;
+  border:1px;
+  text-align:center;
+}
