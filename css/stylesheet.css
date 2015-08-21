@@ -194,3 +194,9 @@ input{
   font-size:30px;
   text-align:left;
 }
+.bodyholder{
+  height:60vh;
+}
+.paragraph{
+  text-align:left;
+}
