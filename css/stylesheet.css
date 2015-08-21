@@ -9,7 +9,7 @@
         display: block;
     }
     .footer-list{
-        width: 100%;
+        width: auto;
     }
     .footer{
         position: relative;
@@ -34,7 +34,7 @@ body{
     vertical-align: middle;
 }
 #titletext{
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     font-family: "Pinyon Script", cursive;
 }
@@ -68,8 +68,8 @@ body{
     font-family: "Playball" sans-serif;
 }
 #main-image{
-    height:150px;
-    width:150px;
+    height:100px;
+    width:100px;
 }
 .centered{
     float:none;
@@ -92,6 +92,7 @@ body{
     color: aliceblue;
 }
 .img-container{
+    padding:10px;
     text-align: center;
 }
 .nav li:hover{
@@ -110,16 +111,27 @@ input{
     height:5vh;;
 }
 .footer-list{
-    width:90%;
-    margin: 0 auto;
+    width:auto;
+    text-align:right;
     height:auto;
+}
+.left-list{
+  float:left;
+}
+.right-list{
+  float:right;
 }
 .footer-list li{
     display: inline-block;
-    width:15%;
+    width:auto;
+    padding-left:10px;
+    padding-right:10px;
     height:auto;
-    font-size: 1.5em;
-    text-align: center;
+    font-size: 2em;
+}
+.copyright{
+  width:auto;
+  text-align:left;
 }
 .circle-entries{
     height:auto;
@@ -199,4 +211,8 @@ input{
 }
 .paragraph{
   text-align:left;
+}
+#profile-image{
+  width:100%;
+  height:auto;
 }
