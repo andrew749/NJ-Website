@@ -108,7 +108,7 @@ input{
 }
 .footer{
     background-color: #FCE4EC;
-    height:5vh;;
+    height:auto;
 }
 .footer-list{
     width:auto;
@@ -191,8 +191,7 @@ input{
   list-style-type: none;
 }
 .gallery{
-  height:70vh;
-  overflow:scroll;
+  height:auto;
 }
 .gallery-entry{
   padding:10px;
@@ -204,10 +203,13 @@ input{
 }
 #other-contact-info{
   font-size:30px;
-  text-align:left;
+  display: table-cell;
+  text-align:center;
+  vertical-align:middle;
 }
 .bodyholder{
-  height:60vh;
+  min-height:60vh;
+  height:auto;
 }
 .paragraph{
   text-align:left;
@@ -215,4 +217,11 @@ input{
 #profile-image{
   width:100%;
   height:auto;
+}
+#aboutDescription{
+  font-size:1.5em;
+}
+.vertical-center-holder{
+  height:70vh;
+  display:table;
 }
