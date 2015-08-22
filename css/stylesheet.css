@@ -225,3 +225,7 @@ input{
   height:70vh;
   display:table;
 }
+a{
+  color:#333;
+  text-decoration:none;
+}
