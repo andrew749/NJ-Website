@@ -2,7 +2,7 @@
     .vertical-center{
         top:0%;
     }
-    body{
+body{
         height: auto;
     }
     .footer-list li{
@@ -191,8 +191,6 @@ input{
   list-style-type: none;
 }
 .gallery{
-  height:70vh;
-  overflow:scroll;
 }
 .gallery-entry{
   padding:10px;
