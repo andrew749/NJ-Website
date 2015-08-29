@@ -191,7 +191,10 @@ input{
   list-style-type: none;
 }
 .gallery{
+<<<<<<< HEAD
+=======
   height:auto;
+>>>>>>> 9314cbb2f7e4e2223204083f5ac48f3e248548c1
 }
 .gallery-entry{
   padding:10px;
